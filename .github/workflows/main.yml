@@ -28,4 +28,4 @@ jobs:
         with:
           node-version: 12
       - name: Run Surge
-        run: surge ./ bootcampapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ project1Alishba.surge.sh --token ${{secrets.SURGE_TOKEN}}
